@@ -1,0 +1,74 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+
+  body{
+    background-image:url("chicagoORD.png");
+    background-size:cover;
+  }
+
+  h1 {
+    text-align:center;
+    font-family: 'Lato', cursive;
+    color: #00000084;
+    font-size:92px;
+    font-weight:normal;
+
+
+
+  }
+
+  h2 {
+    text-align:center;
+    font-family: 'Lato', cursive;
+    color: #000000;
+    font-size:69px;
+    font-weight:normal;
+
+
+  }
+  h3 {
+    text-align:center;
+    font-family: 'Lato', cursive;
+    color: #000000;
+    font-size:50px;
+    font-weight:700;
+
+
+  }
+  p{
+    background-color:rgb(113, 133, 67);
+    padding:5px;
+    border-radius: 10px;
+    width:810px;
+    margin: 20px 20px 0px auto;
+    display:block;
+    font-family: 'Lato', cursive;
+    line-height:3;
+    font-size:20px;
+    position:center;
+
+    opacity:0.80; 
+    
+ 
+  }
+
+
+.container{
+    max-width:700px;
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+
+}
+
+  .container > div {
+    width: 700px;
+    height:235px;
+    position:relative;
+    display:inline-block;
+    border: 2px solid black;
+    background-size:cover;
+    background-position:center center;
+  }
+
